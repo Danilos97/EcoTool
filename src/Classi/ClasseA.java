@@ -35,6 +35,5 @@ public class ClasseA extends Veicolo{
 		return tariffa;
 	}
 	 
-	// Metodi interfaccia
 	
 }

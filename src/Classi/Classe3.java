@@ -1,11 +1,11 @@
 package Classi;
 
-public class ClasseC extends Veicolo {
+public class Classe3 extends Veicolo {
 		
-	private char classe = 'C';
+	private char classe = '3';
 	private double tariffa = 3.0;
 		
-	public ClasseC (String mod, String mar, int a, String t, int na, double p, double alt) {
+	public Classe3 (String mod, String mar, int a, String t, int na, double p, double alt) {
 		
 		this.modello = mod;
 		this.marca = mar;
@@ -19,7 +19,6 @@ public class ClasseC extends Veicolo {
 			
 			System.out.println("Il numero di assi è stato resettato a 3 perchè il veicolo è di classe" + classe );
 		}
-		
 	}
 
 	public char getClasse() {
@@ -29,7 +28,5 @@ public class ClasseC extends Veicolo {
 	public double getTariffa() {
 		return tariffa;
 	}
-
-	// Metodi interfaccia
 
 }

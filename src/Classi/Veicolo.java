@@ -12,18 +12,10 @@ public abstract class Veicolo {
 	protected double tariffa;
 	protected char classe;
 	
-	/*public Veicolo (String mod, String mar, int a, String t, int na, double p, double alt){
-		
-		this.modello = mod;
-		this.marca = mar;
-		this.anno = a;
-		this.targa = t;
-		this.nassi = na;
-		this.peso = p;
-		this.altezza = alt;
-		
-	}*/
-
+	// Il costruttore è stato omesso ed è stata
+	// resa la classe abstract per evitare eventuali
+	// istanziazioni
+	
 	public String getModello() {
 		return modello;
 	}

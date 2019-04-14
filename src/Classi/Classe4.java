@@ -1,11 +1,11 @@
 package Classi;
 
-public class ClasseD extends Veicolo{
+public class Classe4 extends Veicolo{
 	
-	private char classe = 'D';
+	private char classe = '4';
 	private double tariffa = 4.0;
 	
-	public ClasseD (String mod, String mar, int a, String t, int na, double p, double alt) {
+	public Classe4 (String mod, String mar, int a, String t, int na, double p, double alt) {
 		
 		this.modello = mod;
 		this.marca = mar;
@@ -29,6 +29,4 @@ public class ClasseD extends Veicolo{
 		return tariffa;
 	}
 	
-	// Metodi interfaccia
-
 }

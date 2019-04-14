@@ -1,11 +1,11 @@
 package Classi;
 
-public class ClasseE extends Veicolo{
+public class Classe5 extends Veicolo{
 	
-	private char classe = 'E';
+	private char classe = '5';
 	private double tariffa = 5.0;
 		
-	public ClasseE (String mod, String mar, int a, String t, int na, double p, double alt) throws ExcAssi {
+	public Classe5 (String mod, String mar, int a, String t, int na, double p, double alt) throws ExcAssi {
 		
 		this.modello = mod;
 		this.marca = mar;
@@ -19,7 +19,6 @@ public class ClasseE extends Veicolo{
 			
 			throw new ExcAssi();
 		}
-		
 	}
 
 	public char getClasse() {
@@ -29,8 +28,5 @@ public class ClasseE extends Veicolo{
 	public double getTariffa() {
 		return tariffa;
 	}
-
-	// Metodi interfaccia
-
 
 }
